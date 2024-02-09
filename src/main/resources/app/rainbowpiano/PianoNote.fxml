@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.rainbowpiano.PianoNoteController">
+    <children>
+        <Button alignment="BOTTOM_CENTER" layoutX="-3.6666665077209473" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteA3Clicked" prefHeight="215.0" prefWidth="55.0" text="A3" />
+        <Button alignment="BOTTOM_CENTER" layoutX="51.666664123535156" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteB3Clicked" prefHeight="215.0" prefWidth="55.0" text="B3" />
+        <Button alignment="BOTTOM_CENTER" layoutX="107.0" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteC4Clicked" prefHeight="215.0" prefWidth="55.0" text="C4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="162.3333282470703" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteD4Clicked" prefHeight="215.0" prefWidth="55.0" text="D4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="217.66665649414062" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteE4Clicked" prefHeight="215.0" prefWidth="55.0" text="E4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="273.0" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteF4Clicked" prefHeight="215.0" prefWidth="55.0" text="F4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="328.3333435058594" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteG4Clicked" prefHeight="215.0" prefWidth="55.0" text="G4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="383.66668701171875" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteA4Clicked" prefHeight="215.0" prefWidth="55.0" text="A4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="439.0" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteB4Clicked" prefHeight="215.0" prefWidth="55.0" text="B4" />
+        <Button alignment="BOTTOM_CENTER" layoutX="494.3333435058594" layoutY="184.0" mnemonicParsing="false" onAction="#noteC5Clicked" prefHeight="215.0" prefWidth="55.0" text="C5" />
+        <Button alignment="BOTTOM_CENTER" layoutX="549.6666259765625" layoutY="184.0" mnemonicParsing="false" onAction="#noteD5Clicked" prefHeight="215.0" prefWidth="55.0" text="D5" />
+        <Button layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#startRecordingClicked" prefHeight="67.0" prefWidth="115.0" text="Start Recording" />
+        <Button layoutX="14.0" layoutY="101.0" mnemonicParsing="false" onAction="#finishRecordingClicked" prefHeight="67.0" prefWidth="115.0" text="Finish Recording" />
+        <Label layoutX="151.0" layoutY="33.0" prefHeight="67.0" prefWidth="69.0" text="Label" />
+        <Button layoutX="518.0" layoutY="14.0" mnemonicParsing="false" onAction="#PlayListButtonClicked" prefHeight="55.0" prefWidth="69.0" text="PlayList" />
+        <Button alignment="BOTTOM_CENTER" layoutX="146.0" layoutY="184.0" mnemonicParsing="false" onAction="#ab4ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="C#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="202.0" layoutY="184.0" mnemonicParsing="false" onAction="#eb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="D#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="312.0" layoutY="184.0" mnemonicParsing="false" onAction="#gb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="F#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="368.0" layoutY="184.0" mnemonicParsing="false" onAction="#ab4ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="G#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="423.0" layoutY="184.0" mnemonicParsing="false" onAction="#bb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="A#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="537.0" layoutY="184.0" mnemonicParsing="false" onAction="#db5ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="c#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button alignment="BOTTOM_CENTER" layoutX="36.0" layoutY="184.0" mnemonicParsing="false" onAction="#a3bb3ButtonClicked" prefHeight="135.0" prefWidth="31.0" text="a#">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
