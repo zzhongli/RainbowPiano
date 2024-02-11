@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.rainbowpiano.PianoNoteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rbpiano.rainbowpiano.PianoNoteController">
     <children>
         <Button alignment="BOTTOM_CENTER" layoutX="-3.6666665077209473" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteA3Clicked" prefHeight="215.0" prefWidth="55.0" text="A3" />
         <Button alignment="BOTTOM_CENTER" layoutX="51.666664123535156" layoutY="184.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteB3Clicked" prefHeight="215.0" prefWidth="55.0" text="B3" />

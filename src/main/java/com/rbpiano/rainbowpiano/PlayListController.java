@@ -1,15 +1,11 @@
-package app.rainbowpiano;
+package com.rbpiano.rainbowpiano;
 
 
-import app.rainbowpiano.Model.Music;
-import app.rainbowpiano.Model.PlayList;
+import com.rbpiano.rainbowpiano.Model.PlayList;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 
 import javafx.scene.control.ListView;
-import javafx.stage.Stage;
 
 import javax.sound.midi.MidiUnavailableException;
 import java.io.IOException;

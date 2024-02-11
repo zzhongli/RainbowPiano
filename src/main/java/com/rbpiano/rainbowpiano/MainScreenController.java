@@ -2,7 +2,7 @@
  * This is the Main Screen Class to switching Piano Screen and PlayList Screen
  */
 
-package app.rainbowpiano;
+package com.rbpiano.rainbowpiano;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

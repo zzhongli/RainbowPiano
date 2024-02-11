@@ -1,9 +1,8 @@
-package app.rainbowpiano.Model;
+package com.rbpiano.rainbowpiano.Model;
 
 
 
 import javax.sound.midi.MidiUnavailableException;
-import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class PlayList extends ArrayList{

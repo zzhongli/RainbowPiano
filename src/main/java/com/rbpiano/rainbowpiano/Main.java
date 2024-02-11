@@ -1,4 +1,4 @@
-package app.rainbowpiano;
+package com.rbpiano.rainbowpiano;
 
 
 import javafx.application.Application;

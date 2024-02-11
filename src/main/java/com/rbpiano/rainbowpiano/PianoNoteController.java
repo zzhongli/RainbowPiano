@@ -1,11 +1,10 @@
-package app.rainbowpiano;
+package com.rbpiano.rainbowpiano;
 
 
-import app.rainbowpiano.Model.PianoNote;
-import app.rainbowpiano.Model.Music;
-import app.rainbowpiano.Model.PlayList;
-import app.rainbowpiano.Model.Recorder;
-import app.rainbowpiano.Model.PianoNote;
+import com.rbpiano.rainbowpiano.Model.PianoNote;
+import com.rbpiano.rainbowpiano.Model.Music;
+import com.rbpiano.rainbowpiano.Model.PlayList;
+import com.rbpiano.rainbowpiano.Model.Recorder;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
@@ -22,7 +21,7 @@ public class PianoNoteController {
 
     private static MainScreenController controller = new MainScreenController();
 
-    private static Recorder Recorder = new Recorder();
+    private static com.rbpiano.rainbowpiano.Model.Recorder Recorder = new Recorder();
     private static boolean recording;
 
     public ArrayList<Integer> newmusic = new ArrayList<Integer>();

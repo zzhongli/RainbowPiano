@@ -12,8 +12,8 @@ module app.rainbowpiano {
     requires com.almasb.fxgl.all;
     requires java.desktop;
 
-    opens app.rainbowpiano to javafx.fxml;
-    exports app.rainbowpiano;
-    exports app.rainbowpiano.Model;
-    opens app.rainbowpiano.Model to javafx.fxml;
+    opens com.rbpiano.rainbowpiano to javafx.fxml;
+    exports com.rbpiano.rainbowpiano;
+    exports com.rbpiano.rainbowpiano.Model;
+    opens com.rbpiano.rainbowpiano.Model to javafx.fxml;
 }

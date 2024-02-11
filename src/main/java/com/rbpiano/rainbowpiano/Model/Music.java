@@ -1,4 +1,4 @@
-package app.rainbowpiano.Model;
+package com.rbpiano.rainbowpiano.Model;
 
 
 import javax.sound.midi.MidiChannel;
