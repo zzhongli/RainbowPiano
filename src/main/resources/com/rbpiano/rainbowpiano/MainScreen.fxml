@@ -17,11 +17,10 @@
         <Font size="35.0" />
       </font>
     </Button>
-    <Label alignment="CENTER" layoutX="92.0" layoutY="52.0" prefHeight="47.0" prefWidth="415.0" text="Rainbow Piano" textAlignment="CENTER">
+    <Label alignment="CENTER" layoutX="92.0" layoutY="35.0" prefHeight="106.0" prefWidth="415.0" text="Rainbow Piano" textAlignment="CENTER">
       <font>
         <Font size="26.0" />
       </font>
     </Label>
-    <Button layoutX="487.0" layoutY="64.0" mnemonicParsing="false" text="theme" />
   </children>
 </AnchorPane>
