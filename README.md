@@ -6,12 +6,30 @@ Rainbow Piano is application to let user playing piano. Users are able to playin
 
 
 ## How to use
+
+#### Main Screen
+
+* The Main Screen allows you to navigate between the 'Piano' and 'PlayList' screens.
+
 #### Play Piano
+* Clicking each piano keyboard button allows you to play piano.
+
 
 #### Recording
 
-#### Play Recording Music
+* Clicking the 'start recording' button on the screen that starts recording.
+* Clicking each piano keyborad button to record your music.
+* Clicking 'finish recording' button to finish record your music.
+* The pop-up window will show up.
+* Clicking 'Yes, Go to PlayList' button to save your music to the music.
+* Clicking 'No' button to discard your recording music.
 
+
+#### Play and delete Recording Music
+* Select a music in your PlayList.
+* Clicking 'play' button to start playing the music.
+* Clicking 'delete' button to delete the music.
+  
 #### Ensemble
 
 ## Screenshots
