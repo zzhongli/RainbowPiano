@@ -76,11 +76,6 @@ public class PlayListController implements Initializable {
     }
 
 
-    public void playEnsembleListViewButtonClicked() throws MidiUnavailableException, InterruptedException {
-        int selectedID =ensembleListView.getSelectionModel().getSelectedIndex();
-        l.playMusic(selectedID);
-    }
-
     public void deleteEnsembleListViewButtonClicked(){
         int selectedID =ensembleListView.getSelectionModel().getSelectedIndex();
         ensembleListView.getItems().remove(selectedID);
