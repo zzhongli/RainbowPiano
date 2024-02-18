@@ -28,7 +28,7 @@ Rainbow Piano is application to let user playing piano. Users are able to playin
 #### Play and delete Recording Music
 * Select a music in your PlayList.
 * Clicking 'play' button to start playing the music.
-* Clicking 'delete' button to delete the music from both Playlist and Ensemble Playlist if it exist.
+* Clicking 'delete' button to delete the music from both Playlist and Ensemble Playlist if it exists.
   
 #### Ensemble
 * Select music in your PlayList.
