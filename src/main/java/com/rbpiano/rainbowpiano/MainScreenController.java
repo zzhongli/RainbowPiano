@@ -6,6 +6,7 @@
 
 package com.rbpiano.rainbowpiano;
 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -19,6 +20,7 @@ public class MainScreenController {
 
     }
 
+    @FXML
     public void pianoButtonClicked() throws IOException {
 
         //switch to piano scene
@@ -30,6 +32,7 @@ public class MainScreenController {
         stage.show();
     }
 
+    @FXML
     public void playListButtonClicked() throws IOException {
         //switch to scene playlist
         FXMLLoader loader = new FXMLLoader(getClass().getResource("PlayList.fxml"));

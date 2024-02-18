@@ -26,7 +26,6 @@ public class PlayListController implements Initializable {
     private static MainScreenController controller = new MainScreenController();
     private static PlayList l = new PlayList();
 
-
     @FXML
     private ListView<String> musicListView;
 
@@ -39,10 +38,12 @@ public class PlayListController implements Initializable {
     /**
      * switch to piano scene
      */
+    @FXML
     public void pianoButtonClicked() throws IOException, IOException {
         controller.pianoButtonClicked();
     }
 
+    @FXML
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ArrayList<String> o = l.getMusicName();
@@ -54,6 +55,7 @@ public class PlayListController implements Initializable {
     /**
      * delete music from the list
      */
+    @FXML
     public void deleteMusicListViewButtonClicked(){
         int selectedID =musicListView.getSelectionModel().getSelectedIndex();
         musicListView.getItems().remove(selectedID);
@@ -67,6 +69,7 @@ public class PlayListController implements Initializable {
     /**
      * play music from the list
      */
+    @FXML
     public void playMusicListViewButtonClicked() throws MidiUnavailableException, InterruptedException {
         int selectedID =musicListView.getSelectionModel().getSelectedIndex();
         l.playMusic(selectedID);
@@ -75,19 +78,21 @@ public class PlayListController implements Initializable {
     /**
      * add music from playlist to another playlist
      */
+    @FXML
     public void addToEnsembleButtonClicked(){
         int selectedID =musicListView.getSelectionModel().getSelectedIndex();
         String g = musicListView.getSelectionModel().getSelectedItem();
         ensembleListView.getItems().add(g);
     }
 
-
+    @FXML
     public void deleteEnsembleListViewButtonClicked(){
         int selectedID =ensembleListView.getSelectionModel().getSelectedIndex();
         ensembleListView.getItems().remove(selectedID);
         l.deleteMusic(l.size());
     }
 
+    @FXML
     public void ensembleButtonClicked() throws MidiUnavailableException, InterruptedException {
 
         ObservableList<Integer> selectedID =ensembleListView.getSelectionModel().getSelectedIndices();
@@ -99,6 +104,5 @@ public class PlayListController implements Initializable {
             t.start();
 
         }
-
     }
 }

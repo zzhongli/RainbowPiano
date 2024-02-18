@@ -49,13 +49,6 @@ public class Music extends ArrayList{
     }
 
 
-
-    public void addTo(PlayList list){
-
-
-    }
-
-
     public void delete(){
         for(int i = 0; i < 10; i++){
             newmusic.clear();

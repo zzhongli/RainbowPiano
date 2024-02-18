@@ -17,37 +17,37 @@
         <Button alignment="BOTTOM_CENTER" layoutX="438.0" layoutY="87.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#noteB4Clicked" prefHeight="215.0" prefWidth="55.0" style="-fx-background-color: #A64EFE;" />
         <Button alignment="BOTTOM_CENTER" layoutX="493.0" layoutY="87.0" mnemonicParsing="false" onAction="#noteC5Clicked" prefHeight="215.0" prefWidth="55.0" style="-fx-background-color: #C861EE;" />
         <Button alignment="BOTTOM_CENTER" layoutX="548.0" layoutY="87.0" mnemonicParsing="false" onAction="#noteD5Clicked" prefHeight="215.0" prefWidth="55.0" style="-fx-background-color: #EF6ED5;" />
-        <Button alignment="BOTTOM_CENTER" layoutX="146.0" layoutY="87.0" mnemonicParsing="false" onAction="#ab4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="C#">
+        <Button alignment="BOTTOM_CENTER" layoutX="146.0" layoutY="87.0" mnemonicParsing="false" onAction="#db4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="201.0" layoutY="87.0" mnemonicParsing="false" onAction="#eb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="D#">
+        <Button alignment="BOTTOM_CENTER" layoutX="201.0" layoutY="87.0" mnemonicParsing="false" onAction="#eb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="311.0" layoutY="87.0" mnemonicParsing="false" onAction="#gb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="F#">
+        <Button alignment="BOTTOM_CENTER" layoutX="311.0" layoutY="87.0" mnemonicParsing="false" onAction="#gb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="368.0" layoutY="87.0" mnemonicParsing="false" onAction="#ab4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="G#">
+        <Button alignment="BOTTOM_CENTER" layoutX="368.0" layoutY="87.0" mnemonicParsing="false" onAction="#ab4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="422.0" layoutY="87.0" mnemonicParsing="false" onAction="#bb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="A#">
+        <Button alignment="BOTTOM_CENTER" layoutX="422.0" layoutY="87.0" mnemonicParsing="false" onAction="#bb4ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="532.0" layoutY="87.0" mnemonicParsing="false" onAction="#db5ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="c#">
+        <Button alignment="BOTTOM_CENTER" layoutX="532.0" layoutY="87.0" mnemonicParsing="false" onAction="#db5ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>
         </Button>
-        <Button alignment="BOTTOM_CENTER" layoutX="36.0" layoutY="87.0" mnemonicParsing="false" onAction="#a3bb3ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;" text="a#">
+        <Button alignment="BOTTOM_CENTER" layoutX="36.0" layoutY="87.0" mnemonicParsing="false" onAction="#a3bb3ButtonClicked" prefHeight="135.0" prefWidth="31.0" style="-fx-background-color: #212626;">
             <font>
                 <Font size="11.0" />
             </font>

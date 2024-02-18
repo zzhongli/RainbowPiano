@@ -11,11 +11,9 @@ import javax.sound.midi.MidiUnavailableException;
 
 public class Ensemble implements Runnable{
 
-
     private int selectID;
 
     private PlayList playList;
-
 
     public Ensemble(int id, PlayList list){
         selectID = id;

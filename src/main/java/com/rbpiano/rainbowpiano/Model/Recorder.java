@@ -9,31 +9,35 @@ package com.rbpiano.rainbowpiano.Model;
 
 public class Recorder {
 
-    public Recorder(){
+    private static boolean recording;
 
+    public Recorder(boolean initalRecord){
 
-    }
-
-    public void startRecording(){
-
+        recording = initalRecord;
 
     }
 
-    public void finishRecording(){
+    public boolean setStartRecording(){
 
+       return recording = true;
+    }
 
+    public boolean setFinishRecording(){
+
+        return recording = false;
     }
 
 
 
-    public boolean recorderIsStarted(boolean r){
-        if(r) {
+    public boolean recorderIsStarted(){
+        if(recording) {
             return true;
         }
         else{
             return false;
         }
-    }}
+    }
+}
 
 
 

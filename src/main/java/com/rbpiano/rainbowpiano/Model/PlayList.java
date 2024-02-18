@@ -1,8 +1,9 @@
 /**
  * File: PlayList.java
  * ---------------------
- * this is program for Playlist
+ * this is program for multi-threads player
  */
+
 
 package com.rbpiano.rainbowpiano.Model;
 
@@ -33,8 +34,8 @@ public class PlayList extends ArrayList {
 
         }
         return s;
-
     }
+
 
     /**
      * get index of music in the playlist and run play method on music
@@ -53,6 +54,7 @@ public class PlayList extends ArrayList {
     public int getMusicIndex(){
         return PlayList1.size();
     }
+
 
 
 }
