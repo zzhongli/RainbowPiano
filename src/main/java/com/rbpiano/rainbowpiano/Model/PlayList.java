@@ -5,7 +5,7 @@ package com.rbpiano.rainbowpiano.Model;
 import javax.sound.midi.MidiUnavailableException;
 import java.util.ArrayList;
 
-public class PlayList extends ArrayList{
+public class PlayList extends ArrayList {
 
     private static ArrayList<Music> PlayList1 = new ArrayList<Music>();
 
@@ -33,6 +33,11 @@ public class PlayList extends ArrayList{
 
     }
 
+    /**
+     * get index of music in the playlist and run play method on music
+     * @param idNumber index of music be stored in the playlist
+     *
+     */
     public void playMusic(int idNumber) throws MidiUnavailableException, InterruptedException {
         PlayList1.get(idNumber).play();
     }

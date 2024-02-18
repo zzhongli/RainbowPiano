@@ -10,6 +10,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
 import javax.sound.midi.MidiUnavailableException;
+import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Optional;
@@ -198,10 +199,14 @@ public class PianoNoteController {
     public void startRecordingClicked() throws MidiUnavailableException {
         recording = true;
 
+
+
     }
+
 
     public void finishRecordingClicked() throws MidiUnavailableException, InterruptedException, IOException {
         recording = false;
+
         // list.add(Recorder.convertToMusic(newmusic));
         //pop up option panel
         //do you want to save your music to the playlist
@@ -261,6 +266,7 @@ public class PianoNoteController {
 
 
     }
+
 
 
 

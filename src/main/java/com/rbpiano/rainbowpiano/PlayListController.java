@@ -1,16 +1,20 @@
 package com.rbpiano.rainbowpiano;
 
 
+import com.rbpiano.rainbowpiano.Model.Ensemble;
 import com.rbpiano.rainbowpiano.Model.PlayList;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
 
 import javax.sound.midi.MidiUnavailableException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class PlayListController implements Initializable {
@@ -39,6 +43,7 @@ public class PlayListController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         ArrayList<String> o = l.getMusicName();
         musicListView.getItems().addAll(o);
+        ensembleListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
     }
 
@@ -81,8 +86,17 @@ public class PlayListController implements Initializable {
         ensembleListView.getItems().remove(selectedID);
     }
 
-    public void ensembleButtonClicked(){
+    public void ensembleButtonClicked() throws MidiUnavailableException, InterruptedException {
 
+        ObservableList<Integer> selectedID =ensembleListView.getSelectionModel().getSelectedIndices();
+
+        for(int i=0; i < selectedID.size();i++){
+
+            Ensemble ensemble = new Ensemble(selectedID.get(i),l);
+            Thread t = new Thread(ensemble);
+            t.start();
+
+        }
 
     }
 }

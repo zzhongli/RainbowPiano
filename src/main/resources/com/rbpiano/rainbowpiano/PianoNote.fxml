@@ -53,7 +53,7 @@
             </font>
         </Button>
         <Button alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="4.0" mnemonicParsing="false" onAction="#PlayListButtonClicked" prefHeight="49.0" prefWidth="63.0" text="PlayList" />
-        <Button layoutX="423.0" layoutY="51.0" mnemonicParsing="false" onAction="#startRecordingClicked" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: #73A7F5;" text="Start Recording" textAlignment="CENTER" textFill="#020202">
+        <Button fx:id="startRecord" layoutX="423.0" layoutY="51.0" mnemonicParsing="false" onAction="#startRecordingClicked" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: #73A7F5;" text="Start Recording" textAlignment="CENTER" textFill="#020202">
          <font>
             <Font name="Arial" size="9.0" />
          </font>
