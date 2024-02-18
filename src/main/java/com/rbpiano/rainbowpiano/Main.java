@@ -1,5 +1,10 @@
-package com.rbpiano.rainbowpiano;
+/**
+ * File: Main.java
+ * ---------------------
+ * this is class to start program
+ */
 
+package com.rbpiano.rainbowpiano;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

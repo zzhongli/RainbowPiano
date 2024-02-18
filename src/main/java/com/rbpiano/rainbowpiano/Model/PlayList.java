@@ -1,6 +1,10 @@
+/**
+ * File: PlayList.java
+ * ---------------------
+ * this is program for Playlist
+ */
+
 package com.rbpiano.rainbowpiano.Model;
-
-
 
 import javax.sound.midi.MidiUnavailableException;
 import java.util.ArrayList;
@@ -30,7 +34,6 @@ public class PlayList extends ArrayList {
         }
         return s;
 
-
     }
 
     /**
@@ -50,7 +53,6 @@ public class PlayList extends ArrayList {
     public int getMusicIndex(){
         return PlayList1.size();
     }
-
 
 
 }

@@ -1,7 +1,13 @@
+/**
+ * File: Ensemble.java
+ * ---------------------
+ * this is program for multi-threads player
+ */
+
 package com.rbpiano.rainbowpiano.Model;
 
 import javax.sound.midi.MidiUnavailableException;
-import java.util.List;
+
 
 public class Ensemble implements Runnable{
 
@@ -10,11 +16,15 @@ public class Ensemble implements Runnable{
 
     private PlayList playList;
 
+
     public Ensemble(int id, PlayList list){
         selectID = id;
         playList = list;
     }
 
+    /**
+     * play the music on the playlist by index selectID
+     */
     @Override
     public void run() {
 

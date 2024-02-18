@@ -1,5 +1,10 @@
-package com.rbpiano.rainbowpiano.Model;
+/**
+ * File: Music.java
+ * ---------------------
+ * this is program for create, delete and play music
+ */
 
+package com.rbpiano.rainbowpiano.Model;
 
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.MidiSystem;
@@ -43,20 +48,12 @@ public class Music extends ArrayList{
         newmusic.add(noteNumber);
     }
 
-//    public Music makeMusic() throws MidiUnavailableException {
-//
-//        Music m = new Music(newmusic);
-//        return m;
-//
-//    }
 
 
     public void addTo(PlayList list){
 
 
     }
-
-
 
 
     public void delete(){

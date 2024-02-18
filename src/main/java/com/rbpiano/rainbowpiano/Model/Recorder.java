@@ -1,3 +1,9 @@
+/**
+ * File: Recorder.java
+ * ---------------------
+ * this is program for Recorder
+ */
+
 package com.rbpiano.rainbowpiano.Model;
 
 
@@ -18,10 +24,7 @@ public class Recorder {
 
     }
 
-    //public Music convertToMusic(ArrayList<Integer> notes) throws MidiUnavailableException, InterruptedException {
 
-    //return (new Music(notes));
-    //}
 
     public boolean recorderIsStarted(boolean r){
         if(r) {

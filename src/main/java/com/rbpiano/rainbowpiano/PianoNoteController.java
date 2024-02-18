@@ -1,5 +1,10 @@
-package com.rbpiano.rainbowpiano;
+/**
+ * File: PianoNoteController.java
+ * ---------------------
+ * this is piano note screen class
+ */
 
+package com.rbpiano.rainbowpiano;
 
 import com.rbpiano.rainbowpiano.Model.PianoNote;
 import com.rbpiano.rainbowpiano.Model.Music;
@@ -10,9 +15,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 
 import javax.sound.midi.MidiUnavailableException;
-import javax.swing.*;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Optional;

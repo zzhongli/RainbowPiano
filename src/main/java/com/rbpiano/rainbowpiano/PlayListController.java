@@ -1,5 +1,10 @@
-package com.rbpiano.rainbowpiano;
+/**
+ * File: PlayListController.java
+ * ---------------------
+ * this is playlist screen class
+ */
 
+package com.rbpiano.rainbowpiano;
 
 import com.rbpiano.rainbowpiano.Model.Ensemble;
 import com.rbpiano.rainbowpiano.Model.PlayList;
@@ -14,7 +19,6 @@ import javax.sound.midi.MidiUnavailableException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class PlayListController implements Initializable {

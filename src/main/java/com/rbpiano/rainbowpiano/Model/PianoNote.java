@@ -1,6 +1,10 @@
+/**
+ * File: PianoNote.java
+ * ---------------------
+ * this is program for piano note
+ */
+
 package com.rbpiano.rainbowpiano.Model;
-
-
 
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.MidiSystem;
@@ -26,26 +30,29 @@ public class PianoNote {
 
     }
 
+    /**
+     * method for set piano note by user
+     * @param notnum
+     */
     public void setNote(int notnum){
         Notenumber = notnum;
     }
 
 
-
-
+    /**
+     * method for play note
+     */
     public void playNote() throws MidiUnavailableException, InterruptedException {
 
         synthesizer.open();
         channel.noteOn(Notenumber, 100);
         channel.noteOff(Notenumber);
 
-
     }
 
     public void addToMusic(int noteNumber){
         noteNumber = Notenumber ;
         newmusic.add(noteNumber);
-
 
     }
 
@@ -56,11 +63,6 @@ public class PianoNote {
         return m;
 
     }
-
-//    public void isRecording(){
-//
-//      }
-
 
     public int getNotenumber() {
         return Notenumber;
