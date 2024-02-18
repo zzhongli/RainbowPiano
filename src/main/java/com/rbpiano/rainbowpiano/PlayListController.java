@@ -53,8 +53,10 @@ public class PlayListController implements Initializable {
     public void deleteMusicListViewButtonClicked(){
         int selectedID =musicListView.getSelectionModel().getSelectedIndex();
         musicListView.getItems().remove(selectedID);
-        ensembleListView.getItems().remove(selectedID);
-        l.deleteMusic(selectedID);
+        if(!ensembleListView.getItems().isEmpty()){
+            ensembleListView.getItems().remove(selectedID);
+        }
+        l.deleteMusic(l.size());
 
     }
 
@@ -79,6 +81,7 @@ public class PlayListController implements Initializable {
     public void deleteEnsembleListViewButtonClicked(){
         int selectedID =ensembleListView.getSelectionModel().getSelectedIndex();
         ensembleListView.getItems().remove(selectedID);
+        l.deleteMusic(l.size());
     }
 
     public void ensembleButtonClicked() throws MidiUnavailableException, InterruptedException {

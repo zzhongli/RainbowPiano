@@ -12,6 +12,8 @@ import javafx.scene.control.ButtonType;
 import javax.sound.midi.MidiUnavailableException;
 import javax.swing.*;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Optional;
 
@@ -217,10 +219,10 @@ public class PianoNoteController {
 
         ButtonType yes = new ButtonType("Yes, Go to Playlist");
         ButtonType no = new ButtonType("No");
-        ButtonType cancel = new ButtonType("Cancel");
+
 
         alert.getButtonTypes().clear();   //remove default alert option setting
-        alert.getButtonTypes().addAll(yes,no,cancel);  //add customize option
+        alert.getButtonTypes().addAll(yes,no);  //add customize option
 
         Optional<ButtonType> action = alert.showAndWait();
 
@@ -231,18 +233,13 @@ public class PianoNoteController {
              */
             list.addMusic(music);
 
-            music.setMusicName(STR."Music-\{list.getMusicIndex()}");
+            music.setMusicName(STR."Music- at \{LocalTime.now().getHour()}" + STR.":\{LocalTime.now().getMinute()}" + STR.":\{LocalTime.now().getSecond()}");
             controller.playListButtonClicked();
 
         } else if (action.get()== no) {
-            // newmusic.clear();
-
-
-        } else if (action.get()==cancel) {
 
 
         }
-
 
     }
 //    public void playButtonClicked() throws MidiUnavailableException, InterruptedException {
