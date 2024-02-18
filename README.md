@@ -8,4 +8,10 @@ Rainbow Piano is application to let user playing piano. Users are able to playin
 ## How to use
 
 ## Screenshots
+#### Main Screen
+![mainscreen](https://github.com/zzhongli/RainbowPiano/assets/133532143/e560c62b-dd86-42aa-aeb3-c6c48c3d9d75)
+
+#### Piano Screen
+![pianoscreen](https://github.com/zzhongli/RainbowPiano/assets/133532143/54af564f-46b6-48b6-a816-20d34eac1366)
+
 
