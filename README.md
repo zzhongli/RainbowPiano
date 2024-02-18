@@ -31,7 +31,10 @@ Rainbow Piano is application to let user playing piano. Users are able to playin
 * Clicking 'delete' button to delete the music.
   
 #### Ensemble
-
+* Select music in your PlayList.
+* Clicking 'add to ensemble' button to add music to Ensemble PlayList.
+* Select multiple music in the Ensemble PlayList.
+* Clicking Ensemble to Play multiple music at the same time.
 ## Screenshots
 #### Main Screen
 ![mainscreen](https://github.com/zzhongli/RainbowPiano/assets/133532143/e560c62b-dd86-42aa-aeb3-c6c48c3d9d75)
