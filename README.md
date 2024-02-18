@@ -6,6 +6,13 @@ Rainbow Piano is application to let user playing piano. Users are able to playin
 
 
 ## How to use
+#### Play Piano
+
+#### Recording
+
+#### Play Recording Music
+
+#### Ensemble
 
 ## Screenshots
 #### Main Screen
